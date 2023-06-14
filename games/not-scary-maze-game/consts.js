@@ -1,7 +1,7 @@
 
-const loseAudioUrl = "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3";
+const LOSE_AUDIO_URL = "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3";
 
-const wallProperties = [
+const WALL_PROPERTIES = [
     { width: "20%", height: "100%", left: "0%", top: "0%" },
     { width: "20%", height: "35%", left: "20%", top: "65%" },
     { width: "20%", height: "100%", left: "80%", top: "0%" },

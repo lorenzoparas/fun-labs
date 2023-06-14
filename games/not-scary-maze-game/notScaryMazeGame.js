@@ -1,6 +1,6 @@
 
 const notScaryMazeGame = document.getElementById("not-scary-maze-game");
-const loseAudio = new Audio(loseAudioUrl);
+const loseAudio = new Audio(LOSE_AUDIO_URL);
 let maze;
 let playButton;
 
@@ -27,7 +27,7 @@ const constructMaze = () => {
     const mazeDiv = document.createElement("div");
     mazeDiv.id = "maze";
 
-    wallProperties.forEach(wallProperty => {
+    WALL_PROPERTIES.forEach(wallProperty => {
         const wall = constructWall(wallProperty);
         mazeDiv.appendChild(wall);
     });
